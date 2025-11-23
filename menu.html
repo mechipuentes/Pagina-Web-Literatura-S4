@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Literatura 2025 — Mercedes Puentes</title>
+  <meta name="description" content="Portafolio digital: Literatura 2025. Trabajo de 4to año — Mercedes Puentes. Proyecto docente: Marcela Jasem, Colegio San Lucas HSM.">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#FBFBFC; --card:#FFFFFF; --accent:#6D4C9A; --muted:#6B6B6B; --glass:rgba(255,255,255,0.6);
+      --maxw:1100px; --radius:14px;
+    }
+    *{box-sizing:border-box}
+    body{font-family:Montserrat,system-ui,Arial; margin:0; background:linear-gradient(180deg,#f7f6fb 0%, #ffffff 100%); color:#222}
+    header{background:linear-gradient(90deg,var(--accent),#4B3A7A); color:#fff;padding:36px 20px}
+    .container{max-width:var(--maxw);margin:0 auto;padding:24px}
+    .brand{display:flex;gap:18px;align-items:center}
+    .brand h1{font-family:'Source Serif 4',serif;margin:0;font-size:28px}
+    .meta-black{font-size:14px;color:#000;margin-top:4px}
+    nav{margin-top:18px}
+    nav a{color:rgba(255,255,255,0.95);text-decoration:none;margin-right:14px;font-weight:600}
+
+    main{padding:32px 0}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:28px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(30,20,60,0.06)}
+    .hero{display:flex;gap:18px;align-items:center}
+    h2.section-title{font-family:'Source Serif 4',serif;margin:0 0 10px 0}
+    .toc ul{list-style:none;padding:0;margin:0}
+    .toc li{margin:8px 0}
+    .toc a{color:var(--accent);text-decoration:none}
+
+    section{margin-bottom:22px}
+    .meta{font-size:14px;color:var(--muted);margin-bottom:12px}
+
+    .book{border-left:4px solid var(--accent);padding:12px;margin:12px 0;border-radius:6px;background:linear-gradient(180deg,rgba(109,76,154,0.04),transparent)}
+    .book h3{margin:6px 0}
+    .book .links{margin-top:8px}
+    .btn{display:inline-block;padding:8px 10px;border-radius:8px;text-decoration:none;font-weight:600}
+    .btn-recover{background:transparent;border:1px solid var(--accent);color:var(--accent)}
+    .btn-open{background:var(--accent);color:#fff}
+
+    footer{padding:18px;text-align:center;color:var(--muted);font-size:14px}
+
+    @media (max-width:900px){.grid{grid-template-columns:1fr;}}
+
+    .small{
+      font-size:14px;
+      color:var(--muted);
+      /* REGLA AGREGADA PARA JUSTIFICAR */
+      text-align: justify;
+    }
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    /* Enlaces de contenido (ej. 'La mirada') — no aplican a botones (.btn) */
+    .card a:not(.btn), .book a:not(.btn) {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .card a:not(.btn):hover, .book a:not(.btn):hover {
+      text-decoration: underline;
+      opacity: 0.95;
+    }
+    .book-card{
+  display:block;
+  background:linear-gradient(135deg, #eeeafd, #f7f4ff);
+  padding:22px;
+  border-radius:16px;
+  margin:18px 0;
+  text-decoration:none;
+  color:#4a3c70;
+  font-weight:600;
+  font-size:1.1rem;
+  box-shadow:0 6px 14px rgba(0,0,0,0.07);
+  transition:0.3s;
+  border:1px solid #e8e2fa;
+}
+
+.book-card:hover{
+  transform:translateY(-4px) scale(1.02);
+  box-shadow:0 10px 18px rgba(0,0,0,0.09);
+  background:linear-gradient(135deg, #f4f1ff, #ebe6ff);
+}
+
+.book-title{
+  text-align:center;
+  letter-spacing:0.5px;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <div style="width:64px;height:64px;border-radius:12px;background:#fff;display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:700">L</div>
+        <div>
+          <h1>Literatura 2025 — 4to año</h1>
+          <div class="meta-black">Alumna: Mercedes Puentes • Profesora: Marcela Jasem • Colegio San Lucas HSM</div>
+        </div>
+      </div>
+      <nav aria-label="Navegación principal">
+        <a href="#presentacion">Presentación</a>
+        <a href="#la-literatura">La Literatura</a>
+        <a href="#cosmovisiones">Cosmovisiones</a>
+        <a href="#actividades">Actividades</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container grid">
+      <div>
+        <section id="presentacion" class="card">
+          <h2 class="section-title">Presentación del proyecto</h2>
+          <p class="meta">Objetivo: presentar el recorrido de aprendizaje del año, compilando actividades, producciones y análisis críticos sobre las obras leídas.</p>
+          <p>Este portafolio digital recopila las actividades realizadas a lo largo de 2025 en la materia de Literatura, mostrando el proceso de aprendizaje completo que tuvimos, 
+            desde la asimilación inicial de conceptos hasta la mejora evidente en nuestra destreza para leer con profundidad, 
+            analizar la estructura y el significado de los textos, y expresarnos por escrito.</p>
+          <div style="margin-top:12px">
+            <a class="btn btn-open" href="#la-literatura">Ver contenidos</a>
+          </div>
+        </section>
+
+        <section id="la-literatura" class="card">
+          <h2 class="section-title">La Literatura</h2>
+          <p class="meta">Sección teórica: definiciones, análisis de textos y cosmovisiones.</p>
+          <article>
+            <h3>¿Qué es la literatura?</h3>
+            <p>La literatura es una expresión artística y una construcción social que utiliza el lenguaje escrito, el arte de la palabra, 
+              para representar la experiencia humana, transmitir emociones e ideas, y generar disfrute en el lector. Se caracteriza por su ficcionalidad (creación imaginaria que busca ser verosímil), 
+              una función estética que emplea recursos especiales del lenguaje para priorizar la belleza y la conexión emocional, y funciones cognitivas y éticas que invitan a la reflexión sobre la condición humana. 
+              Las obras se clasifican en géneros literarios (narrativo, lírico, dramático, etc.) y establecen relaciones intertextuales con otras obras, reflejando diversas cosmovisiones o formas de entender el mundo.</p>
+          </article>
+
+          <article style="margin-top:12px">
+            <h3>Análisis de textos</h3>
+            <ul>
+              <li>Procedimiento: lectura atenta → identificación de tema y tono → recursos formales (figuras retóricas, estructura, metaforas) → relación con cosmovisión.</li>
+              </ul>
+          </article>
+
+          <article>
+            <h3>Cosmovisiones</h3>
+            <p>La cosmovisión se define como las formas de entender y analizar la vida que se basan en un conjunto de creencias, ideas y perspectivas sobre el mundo. 
+              Estas visiones del mundo se expresan en los textos literarios (como la mítica, la épica o la trágica), donde influyen en cómo cada persona o grupo cultural interpreta su realidad y, consecuentemente, en su manera de actuar, 
+              ayudando así a entender e interpretar la experiencia humana reflejada en la obra.</p>
+          </article>
+
+        </section>
+
+        <section id="cosmovisiones" class="card">
+          <h2 class="section-title">Cosmovisiones: mítica, épica y trágica</h2>
+          <p class="meta">Cada cosmovisión contiene: contextualización breve, análisis, obras leídas, actividades y síntesis.</p>
+
+          <article id="mitica" style="margin-top:12px">
+            <h3>Cosmovisión Mítica</h3>
+            <p><strong>¿Qué es?</strong> La cosmovisión mítica es una forma de entender la vida que se basa en las explicaciones sagradas sobre la existencia del mundo y de los seres humanos. 
+              Dentro de la literatura, esta cosmovisión se expresa y se utiliza para interpretar la realidad a través de narrativas fundacionales que transmiten un conjunto de creencias y perspectivas sobre el origen y el orden del universo.</p>
+
+             <div class="book">
+              <h4>Mitos trabajados</h4>
+              <ul>
+                <li><strong>Dédalo — El inventor que aprendió a volar</strong>
+                  <div class="small">Contexto: En esta actividad trabajamos el mito de Dédalo y reflexionamos sobre la mirada como forma de conocer al otro y a nosotros mismos. 
+                    A partir de la lectura, analizamos cómo los ojos pueden expresar emociones, intenciones y rasgos interiores, y cómo mirar no es lo mismo que ver u observar. 
+                    Después relacionamos esto con cuestiones éticas y antropológicas, pensando qué significa ser humano y cómo nos vinculamos con los demás. 
+                    Respondimos preguntas sobre qué sentimos cuando alguien nos mira o no nos mira a los ojos, qué descubrimos al mirarnos a nosotros mismos y por qué algunas personas evitan la mirada. 
+                    Con todo eso, teníamos que escribir un ensayo de 250 palabras donde desarrollamos nuestras conclusiones y opiniones usando una estructura clara y recursos expresivos.</div>
+                  <br>
+                  <ul>Actividad: 
+                    <ul><li><a href="La-mirada.pdf" target="_blank">La mirada</a></li>
+                    </ul>
+                  </ul>
+                </li>
+                <p></p>
+                <li><strong>Teseo y el Minotauro — El laberinto</strong>
+                  <div class="small">Contexto: En esta actividad trabajamos la heroicidad a partir del mito de Teseo, pensando qué significa ser valiente y actuar a pesar del miedo. 
+                    Después reflexionamos sobre el laberinto como una metáfora de nuestros pensamientos y emociones, y cada uno dibujó el suyo usando palabras que representaran ideas que nos confunden o nos ayudan a salir. 
+                    Para terminar, analizamos diferentes animales mitológicos y creamos una versión propia que nos representara según nuestras habilidades y cualidades.</div>
+                  <p></p>
+                  <ul>Actividades:
+                    <br>
+                    <ul>
+                      <li>La heroicidad: definición propia de heroicidad. <a target="_blank" href="heroicidad.pdf">[Ver imagen]</a></li>
+                      <br>
+                      <li>El laberinto.<a target="_blank" href="laberinto.jpg">[Ver imagen]</a></li> 
+                      <br>
+                      <li>Animal mítico:<a target="_blank" href="pervochii.png">[Ver imagen]</a></li>
+                    </ul>
+                  </ul>
+                </li>
+              </ul>
+              <h4>Héroes míticos</h4>
+                <p class="small">Cronología del héroe: nacimiento, iniciación, prueba, triunfo/caída. <br> Hecha con: Lola Pizarro y Benjamin Radice</p>
+                <p>Infografía: <a target="_blank" href="infografia.pdf">Hércules y Aquiles (origen, hazañas, valores).</a></p>
+                <h4>Pensamiento mítico</h4>
+                <p class="small">Desarrollo del pensamiento propio a partir de los videos</p>
+                <p><a target="_blank" href="PENSAMIENTO MÍTICO.pdf">Actividad</a></p>
+            </div>
+
+        
+<a class="book-card" href="mit-1.html">
+  <div class="book-title">LIBRO  1: Invisible — Eloy Moreno</div>
+</a>
+
+<a class="book-card" href="mit-2.html">
+  <div class="book-title">LIBRO 2: No hay más que candados para Helena — Esteban Valentino</div>
+</a>
+
+          </article>
+
+          <article id="epica" style="margin-top:18px">
+            <h3>Cosmovisión Épica</h3>
+            <p><strong>¿Qué es?</strong> Narrativa centrada en la acción heroica y en el devenir colectivo de un pueblo o nación. Se valoran el honor, la hazaña y la memoria histórica.</p>
+                <div class="card" style="margin-top:10px">
+              <h4>Actividad teórica</h4>
+              <div class="links"><a class="btn btn-recover" target="_blank" href="epica.pdf">Cosmovisión Épica</a></div>
+            </div>
+
+            <a class="book-card" href="epi-1.html">
+  <div class="book-title">LIBRO 1: Frida y los colores de la vida — Caroline Bernard</div>
+</a>
+
+<a class="book-card" href="epi-2.html">
+  <div class="book-title">LIBRO 2: El bastón de plata — Martín Blasco</div>
+</a>
+          </article>
+
+          <article id="tragica" style="margin-top:18px">
+            <h3>Cosmovisión Trágica</h3>
+            <p><strong>¿Qué es?</strong> Visión en la que el destino, la culpa o la limitación humana conducen a la caída; el conflicto dramático expone límites morales y metafísicos.</p>
+
+            <a class="book-card" href="trag-1.html">
+  <div class="book-title">LIBRO 1: Edipo Rey — Sófocles</div>
+</a>
+
+<a class="book-card" href="trag-2.html">
+  <div class="book-title">LIBRO 2: Antigona — Sófocles</div>
+</a>
+          </article>
+
+        </section>
+
+        <section id="actividades" class="card" style="margin-top:18px">
+          <h2 class="section-title">Actividades del año</h2>
+          <ul>
+            <li>Una niña hecha de libros: actividad grupal hecha en clase sobre los cuentos.</li>
+          </ul>
+          <div class="links"><a class="btn btn-recover" target="_blank" href="Una niña hecha de libros.pdf">Actividad</a></div>
+        </section>
+
+      </div>
+
+      <aside>
+        <div class="card toc">
+          <h4>Índice rápido</h4>
+          <ul>
+            <li><a href="#presentacion">Presentación</a></li>
+            <li><a href="#la-literatura">La Literatura</a></li>
+            <li><a href="#mitica">Cosmovisión Mítica</a></li>
+            <li><a href="#epica">Cosmovisión Épica</a></li>
+            <li><a href="#tragica">Cosmovisión Trágica</a></li>
+            <li><a href="#actividades">Actividades</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="small">Creado por Mercedes Puentes — Literatura 2025 • Colegio San Lucas HSM</div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        const href = a.getAttribute('href');
+        if(href.length>1){
+          e.preventDefault();
+          document.querySelector(href).scrollIntoView({behavior:'smooth',block:'start'});
+        }
+      })
+    })
+  </script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Frida y los colores de la vida</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#F7F6FB;
+      --card:#FFFFFF;
+      --accent:#7C67A6;
+      --accent-light:#dcd3f1;
+      --text:#41385C;
+      --radius:18px;
+      --maxw:900px;
+    }
+
+    body{
+      background:var(--bg);
+      font-family:Montserrat, sans-serif;
+      margin:0;
+      padding:0;
+    }
+
+    .main-wrap{
+      display:flex;
+      justify-content:center;
+    }
+
+    .container{
+      max-width:var(--maxw);
+      background:var(--card);
+      padding:45px;
+      margin:40px 20px;
+      border-radius:var(--radius);
+      box-shadow:0 10px 25px rgba(0,0,0,0.08);
+      border:1px solid #eee8ff;
+      animation:fadeIn 0.6s ease;
+    }
+
+    @keyframes fadeIn{
+      from{opacity:0; transform:translateY(15px);}
+      to{opacity:1; transform:translateY(0);}
+    }
+
+    h1{
+      color:var(--accent);
+      margin-bottom:20px;
+      font-size:2rem;
+      text-align:center;
+    }
+
+    .section-title{
+      font-weight:700;
+      margin-top:30px;
+      margin-bottom:12px;
+      color:var(--text);
+      font-size:1.2rem;
+      background:var(--accent-light);
+      display:inline-block;
+      padding:6px 12px;
+      border-radius:8px;
+    }
+
+    .content-box{
+      display:flex;
+      gap:28px;
+      align-items:flex-start;
+      margin-top:25px;
+      flex-wrap:nowrap;
+    }
+
+    .cover-and-buttons{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      gap:12px;
+    }
+
+    img{
+      width:230px;
+      border-radius:var(--radius);
+      box-shadow:0 8px 18px rgba(0,0,0,0.1);
+    }
+
+    p{
+      line-height:1.7;
+      font-size:1.05rem;
+      color:#3f3660;
+      margin-bottom:18px;
+      text-align: justify;
+    }
+
+    .back-btn{
+      display:inline-block;
+      margin:20px;
+      padding:8px 14px;
+      background:#6D4C9A;
+      color:white;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+      transition:0.2s;
+    }
+
+    .back-btn:hover{
+      background:#593d80;
+    }
+  </style>
+</head>
+
+<body>
+
+<a href="menu.html" class="back-btn">← Volver al inicio</a>
+
+<div class="main-wrap">
+  <div class="container">
+
+    <h1>Frida y los colores de la vida — Caroline Bernard</h1>
+
+    <div class="content-box">
+
+      <!-- TEXTOS -->
+      <div>
+        <div class="section-title">Síntesis</div>
+        <p>En este capítulo, Frida atraviesa un momento decisivo en su vida personal y artística.
+                Su relación con Diego está llena de amor y conflicto, y ese caos emocional influye en su obra. Entre viajes, encuentros con artistas y tensiones afectivas, Frida va afirmando su propio estilo.
+                El dolor físico y la soledad siguen marcándola, pero también se convierten en impulso creativo.
+                El capítulo muestra cómo Frida transforma su vida —difícil, intensa y contradictoria— en arte.</p>
+
+        <div class="section-title">Análisis</div>
+        <p>El texto presenta a Frida como una figura que convierte el sufrimiento en creación.
+                Su identidad artística empieza a destacarse por encima del rol de “esposa de Diego”.
+                Los colores, símbolos y autorretratos expresan su dolor, su fuerza y su búsqueda de independencia.
+                La autora mezcla elementos biográficos con una construcción literaria que resalta a Frida como una mujer poderosa, emocional y profundamente creativa.</p>
+
+        <div class="section-title">Relación con la cosmovisión épica</div>
+        <p>Frida aparece como una heroína moderna: enfrenta pruebas duras —dolor, traiciones, limitaciones físicas— y las transforma en crecimiento.
+                Como en la épica, su vida está marcada por desafíos constantes, una lucha interna y la búsqueda de identidad. Su arte funciona como su “hazaña” y su forma de trascender, igual que los héroes épicos que dejan un legado perdurable.</p>
+      </div>
+
+      <!-- PORTADA -->
+      <div class="cover-and-buttons">
+        <img src="frida.jpeg" alt="Portada del libro">
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
